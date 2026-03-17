@@ -67,7 +67,7 @@ switch ($Command) {
 
     "test" {
         Write-Host "Running pytest..." -ForegroundColor Cyan
-        uv run pytest tests/ -v --tb=short
+        uv run ruff check src/ api/ tests/ orchestration/ monitoring/ scripts/promote_model.py
     }
 
     "lint" {

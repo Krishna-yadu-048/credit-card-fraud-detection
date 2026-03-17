@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import pandera.pandas as pa
 import yaml
-from pandera.pandas import Column, DataFrameSchema, Check
+from pandera.pandas import Check, Column, DataFrameSchema
 
 # ── logging setup ─────────────────────────────────────────────────────────────
 logging.basicConfig(

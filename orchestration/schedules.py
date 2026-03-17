@@ -1,4 +1,4 @@
-from dagster import ScheduleDefinition, define_asset_job, AssetSelection
+from dagster import AssetSelection, ScheduleDefinition, define_asset_job
 
 full_pipeline_job = define_asset_job(
     name="full_fraud_pipeline",

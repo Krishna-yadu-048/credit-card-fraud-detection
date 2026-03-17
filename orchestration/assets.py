@@ -4,7 +4,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-from dagster import asset, Output, MetadataValue
+from dagster import MetadataValue, Output, asset
 
 # always use the same Python that is running Dagster
 PYTHON = sys.executable
